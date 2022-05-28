@@ -1,0 +1,137 @@
+/* font-family: 'Inter', sans-serif; */
+*,
+
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-background: #0A0C1C;
+    --clr-secondary-background: #141F34;
+    --clr-primary: white; 
+    --clr-secondary:linear-gradient(93.8deg, #1E3149 -2.93%, #192941 100%);  
+}
+
+
+header {
+    background: var(--clr-secondary-background);
+    
+  }
+
+  
+
+.nav_list-item{
+    display:flex;
+    float: right;
+    list-style: none ;
+    font-family: 'Inter';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.87rem;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--clr-secondary-background);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to gradient on hover */
+  li a:hover {
+    background: linear-gradient(45deg, #0A0C1C, #262139, #0e0e0e);
+  }
+
+  
+
+.nav_link{
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 2px;
+    box-sizing: 3rem;
+    padding: 16px, 12px;  
+}
+
+body{
+  background-color:var(--clr-background);
+  background-image: url("/img/PagePatterns.png");
+  background-size: cover;
+  font-family: "Inter" , sans-serif;
+  font-size: 1.125rem;
+  color: var(--clr-primary);
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  letter-spacing: -2%
+}
+
+.main_section{
+  display:flex;
+  flex-direction: row;
+  padding: 4rem;
+  align-items: center;
+}
+
+.logo{
+  padding: 2rem;
+  width: 50vw;
+}
+
+.image{
+  width: 20vw;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  padding-left: 28px;
+  max-width: 400px;
+}
+
+p{
+  padding-top: 2rem;
+}
+
+.card{
+  display:flex;
+  flex-direction: row;
+  border-radius: 5px;
+  padding: 4rem;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+
+footer{
+  background-color: var(--clr-secondary-background);
+  text-align: center;
+  background: linear-gradient(45deg, #141F34, #262139, #141F34);
+  padding-bottom: 24px;
+  opacity: 0.6;
+  position: static;
+}
