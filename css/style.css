@@ -72,7 +72,7 @@ ul {
 
 body{
   background-color:var(--clr-background);
-  background-image: url("/img/PagePatterns.png");
+  background-image: url("./img/PagePatterns.png");
   background-size: cover;
   font-family: "Inter" , sans-serif;
   font-size: 1.125rem;
